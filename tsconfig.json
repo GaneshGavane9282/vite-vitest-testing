@@ -1,12 +1,11 @@
 {
-  "compilerOptions" : {
+  "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": "ESNext",
+    "lib": ["ESNext"], // Change to an array
     "skipLibCheck": true,
-
-    // Bundler ode
-
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   },
   "files": [],
   "references": [
