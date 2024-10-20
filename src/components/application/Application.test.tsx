@@ -87,5 +87,9 @@ describe("Application", () => {
      */
     const customElement = screen.getByTestId("custom-element");
     expect(customElement).toBeInTheDocument();
+
+    const submitDisabledButton = screen.getByRole("button");
+    expect(submitDisabledButton).toBeInTheDocument();
+    expect(submitDisabledButton).toBeDisabled();
   });
 });

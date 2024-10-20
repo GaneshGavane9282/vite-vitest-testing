@@ -44,7 +44,9 @@ const Application = () => {
             terms and conditions
           </label>
         </div>
-        <button>Submit</button>
+        <button type="button" disabled={true}>
+          Submit
+        </button>
       </form>
     </>
   );
