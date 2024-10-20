@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest --coverage --watch"
+    "coverage": "vitest --coverage --watch",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
