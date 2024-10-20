@@ -1,9 +1,12 @@
-import Application from "./components/application/Application";
+// import Application from "./components/application/Application";
+
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div>
-      <Application />
+      {/* <Application /> */}
+      <Counter />
     </div>
   );
 };

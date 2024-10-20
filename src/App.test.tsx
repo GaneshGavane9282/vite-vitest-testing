@@ -31,6 +31,8 @@ import App from "./App";
 test("App renders correctly", () => {
   render(<App />);
 
-  const nameElement = screen.getByRole("button");
+  const nameElement = screen.getByRole("button", {
+    name: /set/i,
+  });
   expect(nameElement).toBeInTheDocument();
 });
